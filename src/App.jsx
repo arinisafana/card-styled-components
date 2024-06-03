@@ -1,10 +1,15 @@
-
+import Todo from "./components/todo"
+import Form from "./components/form"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
+      <div className="bg-gray-800 border-b-2 border-gray-400">
+        <Todo/>
+      </div>
+      <div className="bg-gray-800">
+        <Form/>
+      </div>
     </>
   )
 }
